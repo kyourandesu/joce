@@ -152,7 +152,7 @@ html {
   margin: 0px 20px 20px 20px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 900px) {
   .timeline {
     display: grid;
     grid-template-columns: 1fr 3px 1fr;
