@@ -114,7 +114,7 @@ html {
   justify-content: center;
   background-color: #1f1f1f;
   min-height: 100vh;
-  padding: 100px 0;
+  padding: 50px 0;
   font-family: Jost;
 }
 
@@ -178,3 +178,11 @@ html {
             transform: translateX(-50%);
   }
 }
+
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon {
+  color: #ffffff;
+}
+
+

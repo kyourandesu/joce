@@ -25,10 +25,50 @@
     <!-- font awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" rel="stylesheet">
 
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+
     <title>forJocelyn</title>
 </head>
 
-<body>
+<body id="01">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-scroll" style="padding: 1rem 1rem;">
+        <div class="container-fluid">
+            <button class="navbar-toggler ps-0" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="d-flex justify-content-start align-items-center">
+                    <i class="fas fa-bars"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarExample01">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" aria-current="page" href="#01">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#02">Hello</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#03">Memories</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav flex-row">
+                    <!-- Icons -->
+                    <li class="nav-item">
+                      <a class="nav-link pe-2" onclick="navbutton()">
+                        <i class="fas fa-bars"></i>
+                      </a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
     <div class="home">
         <div class="textdiv position-absolute top-50 start-50 translate-middle focus-in-expand">
             <h1 class="align-middle text-center mono">
@@ -42,13 +82,13 @@
         </div>
         <div class="">
             <div id="section01" class="scroll">
-                <a href="#section02" class="position-absolute start-50 translate-middle-x">
+                <a href="#02" class="position-absolute start-50 translate-middle-x">
                     <span></span>Scroll
                 </a>
             </div>
         </div>
     </div>
-    <div class="greeting" id="section02">
+    <div class="greeting" id="02">
         <div class="p-5 text-center">
             <p></p>
             <p class="text-light display-5 text-center mono p-5"> Hi Jocey!</p>
@@ -61,7 +101,7 @@
 
         </div>
     </div>
-    <div>
+    <div id="03">
         <section class="design-section">
             <h1 class="text-light pb-5">Memories before we got together</h1>
             <div class="timeline">
@@ -72,7 +112,8 @@
                 </div>
                 <div class="timeline-component timeline-content">
                     <h3>6 May 2022</h3>
-                    <p>We first met in Valorant through Jeanette and didn't really talk to each other but started to play wit each other on and off :(</p>
+                    <p>We first met in Valorant through Jeanette and didn't really talk to each other but started to
+                        play wit each other on and off :(</p>
                     <img src="./pics/discordadd.png" alt="img" width="300vh" />
                 </div>
                 <div class="timeline-component timeline-content">
@@ -134,12 +175,14 @@
                 </div>
                 <div class=" timeline-component timeline-content">
                     <h3>November 2022</h3>
-                    <p>I first told you that I was interested in you but you said that you were unsure of your feelings :(</p>
+                    <p>I first told you that I was interested in you but you said that you were unsure of your feelings
+                        :(</p>
                     <img src="./pics/busstop.jpg" alt="img" width="300vh" />
                 </div>
                 <div class="timeline-component timeline-content">
                     <h3>20 December 2022</h3>
-                    <p>I went to taiwan and we started to talk ALOT. I also remember sending you many cat pics haha. (i started liking cats because of you)</p>
+                    <p>I went to taiwan and we started to talk ALOT. I also remember sending you many cat pics haha. (i
+                        started liking cats because of you)</p>
                     <img src="./pics/cat.jpg" alt="img" width="250vh" />
                 </div>
                 <div class="timeline-middle">
@@ -156,7 +199,8 @@
                 </div>
                 <div class=" timeline-component timeline-content">
                     <h3>17 December 2022</h3>
-                    <p>You asked out to watch Avatar 2! (only after i asked if you wanted to meet up) It was also ur second time watching but you didn't tell me haha</p>
+                    <p>You asked out to watch Avatar 2! (only after i asked if you wanted to meet up) It was also ur
+                        second time watching but you didn't tell me haha</p>
                     <img src="./pics/movie.jpeg" alt="img" width="300vh" />
                 </div>
                 <div class="timeline-component timeline-content">
@@ -184,7 +228,8 @@
                 </div>
                 <div class="timeline-component timeline-content">
                     <h3>24 Janurary 2023</h3>
-                    <p>I CONFESSED (over text) and thank god the feeling was reciprocated but we decided to have a 'probabtion' period first</p>
+                    <p>I CONFESSED (over text) and thank god the feeling was reciprocated but we decided to have a
+                        'probabtion' period first</p>
                     <img src="./pics/confess.jpeg" alt="img" width="250vh" />
                 </div>
                 <div class="timeline-middle">
@@ -201,12 +246,14 @@
                 </div>
                 <div class=" timeline-component timeline-content">
                     <h3>14 Febuary 2023</h3>
-                    <p>Valentine's day! <br> We ate at black tap (where i asked to take our relationship to the next stage AND GOT REJECTED because u wanted to be the one) but we still carried on out date. </p>
+                    <p>Valentine's day! <br> We ate at black tap (where i asked to take our relationship to the next
+                        stage AND GOT REJECTED because u wanted to be the one) but we still carried on out date. </p>
                     <img src="./pics/valentine.jpeg" alt="img" width="300vh" />
                 </div>
                 <div class="timeline-component timeline-content">
                     <h3>28 Janurary 2023</h3>
-                    <p>We went to bowl and after i send u home, u were going to confess to me under your block. <br> But after 10mins u still didnt dare to confess until i held your hand.</p>
+                    <p>We went to bowl and after i send u home, u were going to confess to me under your block. <br> But
+                        after 10mins u still didnt dare to confess until i held your hand.</p>
                     <img src="./pics/holdhand.jpeg" alt="img" width="250vh" />
                     <p>You also folded origamis for me!</p>
                     <img src="./pics/origami.jpeg" alt="img" width="300vh" />
@@ -225,68 +272,113 @@
                 </div>
             </div>
             <h2 class="text-light pt-5">Then...we got together on 28 Febuary 2023!</h2>
+            </div>
+        </section>
     </div>
-    </section>
+    <div>
+
+    </div>
+    <div id="quizframe" style="height: 1520px; background-color: rgb(39, 39, 39);">
+        <iframe onload="loaded();" id="quiz"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSeef6F8zxbgpOWKHgcqoo4H5nGpEeT89B-5FSpifrndxveQ4A/viewform?embedded=true"
+            width="900" height="1520" frameborder="0" marginheight="0" marginwidth="0"
+            class="p-5 w-100">Loading…</iframe>
+    </div>
+    <div>
+
     </div>
 </body>
 
 </html>
 <script>
-    var TxtType = function(el, toRotate, period) {
-    this.toRotate = toRotate;
-    this.el = el;
-    this.loopNum = 0;
-    this.period = parseInt(period, 10) || 2000;
-    this.txt = '';
-    this.tick();
-    this.isDeleting = false;
-};
-
-TxtType.prototype.tick = function() {
-    var i = this.loopNum % this.toRotate.length;
-    var fullTxt = this.toRotate[i];
-
-    if (this.isDeleting) {
-    this.txt = fullTxt.substring(0, this.txt.length - 1);
-    } else {
-    this.txt = fullTxt.substring(0, this.txt.length + 1);
-    }
-
-    this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
-
-    var that = this;
-    var delta = 200 - Math.random() * 100;
-
-    if (this.isDeleting) { delta /= 2; }
-
-    if (!this.isDeleting && this.txt === fullTxt) {
-    delta = this.period;
-    this.isDeleting = true;
-    } else if (this.isDeleting && this.txt === 'For ') {
-    this.isDeleting = false;
-    this.loopNum++;
-    delta = 500;
-    }
-
-    setTimeout(function() {
-    that.tick();
-    }, delta);
-};
-
-window.onload = function() {
-    var elements = document.getElementsByClassName('typewrite');
-    for (var i=0; i<elements.length; i++) {
-        var toRotate = elements[i].getAttribute('data-type');
-        var period = elements[i].getAttribute('data-period');
-        if (toRotate) {
-          new TxtType(elements[i], JSON.parse(toRotate), period);
+    // change size of iframe for google form
+    var loadCounter = 0;
+    function loaded() {
+        loadCounter += 1;
+        if (loadCounter === 2) {
+            console.log("w")
+            // change the iframe height
+            document.getElementById("quiz").style.height = "395px";
+            document.getElementById("quizframe").style.height = "395px";
         }
     }
-    // INJECT CSS
-    var css = document.createElement("style");
-    css.type = "text/css";
-    css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
-    document.body.appendChild(css);
-};
 
+    var TxtType = function (el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function () {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+            this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+            this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+            delta = this.period;
+            this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === 'For ') {
+            this.isDeleting = false;
+            this.loopNum++;
+            delta = 500;
+        }
+
+        setTimeout(function () {
+            that.tick();
+        }, delta);
+    };
+
+    window.onload = function () {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i = 0; i < elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+                new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+        document.body.appendChild(css);
+    };
+
+
+    // navbar
+    // Add this JavaScript code to your page
+    document.addEventListener("DOMContentLoaded", function () {
+        const navbar = document.querySelector(".navbar");
+
+        // Add a scroll event listener
+        window.addEventListener("scroll", function () {
+            if (window.scrollY > 50) {
+                navbar.style.backgroundColor = "transparent"; // Change the background color upon scroll
+                navbar.style.transition = "background-color 200ms linear";
+                navbar.style.boxShadow = "0 0 10px rgba(0, 0, 0, 0.2)"; // Add a box shadow to the navbar upon scroll
+                navbar.style.padding = "0.5rem 1rem"; // Tighten up the padding in the navbar
+            } else {
+                navbar.style.backgroundColor = "transparent"; // Reset the background color
+                navbar.style.boxShadow = "none"; // Reset the box shadow
+                navbar.style.padding = "1rem 1rem"; // Reset the padding in the navbar
+
+            }
+        });
+    });
 </script>
