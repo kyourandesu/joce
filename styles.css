@@ -188,7 +188,7 @@ html {
 
 .nava {
   text-decoration: none;
-  color: #1E1E23;
+  color: #c5c5c5;
   opacity:1;
   font-family: 'work sans', sans serif;
   font-size: 1.5em;
@@ -261,7 +261,7 @@ nav {
 {
   opacity: 1;
   transform: rotate(45deg) translate(-3px, -1px);
-  background: #36383F;
+  background: #ffffff;
 }
 #menuToggle input:checked ~ span:nth-last-child(3)
 {
@@ -278,12 +278,12 @@ nav {
 {
   position: absolute;
   width: 180px;
-  height: 400px;
-  box-shadow: 0 0 10px #85888C;
-  margin: -50px 0 0 -50px;
+  height: 104vh;
+  box-shadow: 0 0 10px #000000;
+  margin: -50px 0 0 -4vw;
   padding: 50px;
   padding-top: 125px;
-  background-color: #F5F6FA;
+  background-color: #1d1d1d;
   -webkit-font-smoothing: antialiased;
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
@@ -301,3 +301,51 @@ nav {
   transform: none;
 }
 
+
+.carousel {
+  border-radius: 20px;
+  min-width: 350px;
+  width: 60vw;
+  height: 60vh;
+  /* border:rgba(0, 0, 0, 0.8) 1px solid; */
+  box-shadow: 8px 14px 19px 0px rgba(0,0,0,0.77);
+  -webkit-box-shadow: 8px 14px 19px 0px rgba(0,0,0,0.77);
+  -moz-box-shadow: 8px 14px 19px 0px rgba(0,0,0,0.77);
+  background-color: #1a1a1a;
+}
+
+.carou {
+  object-fit: contain;
+  object-position: center;
+  overflow: hidden;
+  height:60vh;
+}
+
+/* make carousel arrow black
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+} */
+
+.ourpics {
+  background-color: #1f1f1f;
+  padding: 50px;
+}
+
+/* entrance animations */
+
+@keyframes enter-animation {
+	0% {
+		transform: translateY(100px);
+    opacity: 0;
+	}
+	100% {
+		transform: translateY(0);
+    opacity: 1;
+	}
+}
+@media (prefers-reduced-motion: no-preference) {
+  .image-animation {
+    animation: enter-animation 0.8s 1;
+  }
+}
